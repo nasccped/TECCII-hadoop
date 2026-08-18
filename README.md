@@ -27,6 +27,7 @@ e permitir o desenvolvimento da mesma em diferentes plataformas (`Windows` e `Li
 Use a tabela de conteúdo abaixo para navegar pelo _README_:
 
 - [proposta da atividade](#proposta-da-atividade)
+- [requisitos da atividade](#requisitos-da-atividade)
 
 ## Proposta da atividade
 
@@ -45,3 +46,10 @@ E encerra-se com o objetivo final:
 
 > "`[...]` sua tarefa será observar os grupos criados e analisar se os documentos reunidos em
 > cada _cluster_ realmente tratam de assuntos parecidos."
+
+## Requisitos da atividade
+
+Para realizar a tarefa, o enunciado informa os seguintes requisitos:
+1. `Apache Hadoop` _(obtido por meio [deste link](https://hadoop.apache.org/))_
+2. `Apache Mahout` _(obtido por meio [deste link](https://mahout.apache.org/))_
+3. base de textos disponível _(por exemplo, a base Reuters)_.
