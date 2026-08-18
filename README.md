@@ -26,4 +26,22 @@ e permitir o desenvolvimento da mesma em diferentes plataformas (`Windows` e `Li
 
 Use a tabela de conteúdo abaixo para navegar pelo _README_:
 
-> TODO: adicionar seções para navegação
+- [proposta da atividade](#proposta-da-atividade)
+
+## Proposta da atividade
+
+A atividade se baseia na seguinte tarefa:
+
+> "Utilizar uma base de notícias da agência Reuters para executar um algoritmo de agrupamento de
+> documentos."
+
+Que é seguida pela orientação:
+
+> "`[...]` Utilizando duas ferramentas que já estão disponíveis no ambiente (`Apache Hadoop` e
+> `Apache Mahout`), você executará o algoritmo `K-Means`, que analisará o conteúdo dos textos e os
+> organizará automaticamente em grupos (_clusters_) de documentos semelhantes."
+
+E encerra-se com o objetivo final:
+
+> "`[...]` sua tarefa será observar os grupos criados e analisar se os documentos reunidos em
+> cada _cluster_ realmente tratam de assuntos parecidos."
