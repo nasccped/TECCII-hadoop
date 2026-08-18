@@ -28,6 +28,7 @@ Use a tabela de conteúdo abaixo para navegar pelo _README_:
 
 - [proposta da atividade](#proposta-da-atividade)
   - [o que deve ser entregue?](#o-que-deve-ser-entregue)
+  - [o que deve ser analisado?](#o-que-deve-ser-analisado)
 - [requisitos da atividade](#requisitos-da-atividade)
 
 ## Proposta da atividade
@@ -61,6 +62,16 @@ O recurso final a ser entregue refere-se a um relatório compreendendo:
 >
 > Há também a menção de evidências que comprovem a execução da atividade (referindo-se ao arquivo
 > `saida_clusters.txt` ou outras saídas geradas).
+
+### O que deve ser analisado?
+
+As informações que devem ser analisadas (referentes aos _clusters_) são as seguintes:
+
+- quantos clusters foram gerados;
+- quais palavras aparecem como mais importantes em cada cluster _(Top Terms)_;
+- qual parece ser o assunto de cada grupo;
+- se os agrupamentos fazem sentido, ou seja, se os documentos de um mesmo cluster parecem tratar de
+  temas semelhantes.
 
 ## Requisitos da atividade
 
