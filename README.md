@@ -27,6 +27,7 @@ e permitir o desenvolvimento da mesma em diferentes plataformas (`Windows` e `Li
 Use a tabela de conteúdo abaixo para navegar pelo _README_:
 
 - [proposta da atividade](#proposta-da-atividade)
+  - [o que deve ser entregue?](#o-que-deve-ser-entregue)
 - [requisitos da atividade](#requisitos-da-atividade)
 
 ## Proposta da atividade
@@ -46,6 +47,20 @@ E encerra-se com o objetivo final:
 
 > "`[...]` sua tarefa será observar os grupos criados e analisar se os documentos reunidos em
 > cada _cluster_ realmente tratam de assuntos parecidos."
+
+### O que deve ser entregue?
+
+O recurso final a ser entregue refere-se a um relatório compreendendo:
+
+1. análise dos _clusters_ gerados;
+2. interpretação dos assuntos predominantes em cada grupo _(com base nas palavras mais
+   representativas)_;
+3. breve conclusão sobre os resultados obtidos.
+
+> [!TIP]
+>
+> Há também a menção de evidências que comprovem a execução da atividade (referindo-se ao arquivo
+> `saida_clusters.txt` ou outras saídas geradas).
 
 ## Requisitos da atividade
 
