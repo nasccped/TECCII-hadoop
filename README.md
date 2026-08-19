@@ -77,5 +77,6 @@ As informações que devem ser analisadas (referentes aos _clusters_) são as se
 
 Para realizar a tarefa, o enunciado informa os seguintes requisitos:
 1. `Apache Hadoop` _(obtido por meio [deste link](https://hadoop.apache.org/))_
-2. `Apache Mahout` _(obtido por meio [deste link](https://mahout.apache.org/))_
-3. base de textos disponível _(por exemplo, a base Reuters)_.
+2. `Apache Mahout` _(obtido por meio [deste link](http://linorg.usp.br/apache/mahout/0.13.0))_
+3. base de textos disponível _(por exemplo, a base Reuters, obtido por meio
+   [deste link](https://mldta.com/dataset/reuter_50_50/))_.
