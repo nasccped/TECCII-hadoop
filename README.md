@@ -80,3 +80,10 @@ Para realizar a tarefa, o enunciado informa os seguintes requisitos:
 2. `Apache Mahout` _(obtido por meio [deste link](http://linorg.usp.br/apache/mahout/0.13.0))_
 3. base de textos disponível _(por exemplo, a base Reuters, obtido por meio
    [deste link](https://mldta.com/dataset/reuter_50_50/))_.
+
+> [!CAUTION]
+>
+> Note que as ferramentas mencionadas acima são apenas os requisitos em termos de _software_. Para
+> a execução da tarefa, será necessária também uma plataforma com capacidades mínimas (computador,
+> preferívelmente _UNIX compatible_, como uma máquina virtual ou _WSL_) assim como orientado no
+> corpo da tarefa.
