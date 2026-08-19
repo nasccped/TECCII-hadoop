@@ -30,6 +30,7 @@ Use a tabela de conteúdo abaixo para navegar pelo _README_:
   - [o que deve ser entregue?](#o-que-deve-ser-entregue)
   - [o que deve ser analisado?](#o-que-deve-ser-analisado)
 - [requisitos da atividade](#requisitos-da-atividade)
+- [execução dos comandos](#execução-dos-comandos)
 
 ## Proposta da atividade
 
@@ -87,3 +88,23 @@ Para realizar a tarefa, o enunciado informa os seguintes requisitos:
 > a execução da tarefa, será necessária também uma plataforma com capacidades mínimas (computador,
 > preferívelmente _UNIX compatible_, como uma máquina virtual ou _WSL_) assim como orientado no
 > corpo da tarefa.
+
+## Execução dos comandos
+
+Em seguida, o enunciado orienta executar alguns comandos em ordem, a fim de se obter o arquivo de
+_output_. São os comandos:
+
+1. `hadoop fs -copyFromLocal C50/ /`: cria um _Hadoop Distributed File System (HDFS)_ a partir da
+   pasta local `C50`;
+2. `mahout seqdirectory -i /C50 -o /seqreuters -xm sequential`: converte os documentos em
+  arquivos de sequência (_Hadoop SequenceFiles_) facilitando o processamento;
+3. `mahout seq2sparse -i /seqreuters -o /train-sparse`: converte os arquivos/textos literais em
+   **vetores numéricos** (_TF/IDF_);
+4. `mahout kmeans -i /train-sparse/tfidf-vectors/ -c /kmeans-train-clusters -o
+   /train-clusters-final -dm org.apache.mahout.common.distance.EuclideanDistanceMeasure -x 10 -k 10
+   -ow`: _clusteriza_ os vetores _TF/IDF_ usando algoritmo _k-means_;
+5. `mahout clusterdump -d /train-sparse/dictionary.file-0 -dt sequencefile -i
+   /train-clusters-final/clusters-10-final -n 10 -b 100 -o ./saida_clusters.txt -p
+   /train-clusters-final/clustered-points`: faz a leitura dos dados obtidos pela _clusterização_
+   (passo anterior), filtra/limita apenas para termos relevantes e insere as informações em um
+   arquivo `txt`.
