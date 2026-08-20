@@ -31,6 +31,7 @@ Use a tabela de conteúdo abaixo para navegar pelo _README_:
   - [o que deve ser analisado?](#o-que-deve-ser-analisado)
 - [requisitos da atividade](#requisitos-da-atividade)
 - [execução dos comandos](#execução-dos-comandos)
+- [output](#output)
 
 ## Proposta da atividade
 
@@ -108,3 +109,11 @@ _output_. São os comandos:
    /train-clusters-final/clustered-points`: faz a leitura dos dados obtidos pela _clusterização_
    (passo anterior), filtra/limita apenas para termos relevantes e insere as informações em um
    arquivo `txt`.
+
+## Output
+
+Após executar os comandos mencionados no tópico anterior, é gerado um arquivo `txt`
+_([saida_clusters.txt](./saida_clusters.txt))_ que deve ser analisado.
+
+As orientações para análise estão dispostas na seção
+[`o que deve ser analisado?`](#o-que-deve-ser-analisado).
