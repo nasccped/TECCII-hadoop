@@ -32,6 +32,7 @@ Use a tabela de conteúdo abaixo para navegar pelo _README_:
 - [requisitos da atividade](#requisitos-da-atividade)
 - [execução dos comandos](#execução-dos-comandos)
 - [output](#output)
+- [extra](#extra)
 
 ## Proposta da atividade
 
@@ -117,3 +118,16 @@ _([saida_clusters.txt](./saida_clusters.txt))_ que deve ser analisado.
 
 As orientações para análise estão dispostas na seção
 [`o que deve ser analisado?`](#o-que-deve-ser-analisado).
+
+## Extra
+
+A seguir, uma lista de dificuldades enfrentadas para a resolução do problema:
+
+- configuração de `ssh` / `sshd`: hadoop requer programa `ssh` para fazer a comunição. Ter que
+  alterar as configurações da máquina/hadoop pode ser um pouco exaustivo, ainda mais quando usando
+  um sistema de _superviser_ alternativo, como [`runit`](https://en.wikipedia.org/wiki/Runit) no
+  lugar de [`systemd`](https://en.wikipedia.org/wiki/Systemd).
+- retro-compatibilidade: os comandos utilizados para a instalação, tanto do hadoop quanto do
+  mahout, devem ser fiéis aos fornecidos nos guias de execução. O código fonte mudou bastante desde
+  a criação do exercício. Um programa atualizado pode comprometer o funcionamento de toda a
+  operação (já que ela é feita em conjunto).
